@@ -3,10 +3,8 @@
 using namespace std;
 int p[1000001];
 int find(int n ){
-    printf("n: %d p[n]: %d \n",n,p[n]);
     if(p[n] <0) return n;
     p[n] = find(p[n]);
-    printf("changed p[n]: %d\n",p[n]);
     return p[n];
 }
 void merge(int a, int b){

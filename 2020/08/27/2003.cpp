@@ -11,7 +11,6 @@ int main(){
         if( sum <= m){
             if(sum == m){
                 result++;
-                printf("sum: %d s: %d e: %d\n",sum,s,e);
             }
             if(e < n-1)
                 sum += a[++e];
