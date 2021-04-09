@@ -3,8 +3,13 @@ using namespace std;
 int n;
 int Map[15][15] ={}, temp_Map[15][15];
 int answer =0;
+<<<<<<< HEAD
 int dx[3] = {-1,0,1},
     dy[3] = {1,1,1};
+=======
+int dx[8] = {-1,0,1},
+    dy[8] = {1,1,1};
+>>>>>>> e0d0e2d0e4c6be496f1c5e2a385471ac260219d0
 bool inbound_coordinate(int x, int y){
     if(x <0 || x>=n)
         return false;

@@ -23,6 +23,10 @@ int main(){
         }else{
             dp[i][1] = dp[i-1][1] + dp[i-1][2];
         }
+<<<<<<< HEAD
+=======
+        printf("%d %d\n",dp[i][1], dp[i][2]);
+>>>>>>> e0d0e2d0e4c6be496f1c5e2a385471ac260219d0
         prev = v * 10;
     }
     printf("%d\n",dp[len][1] + dp[len][2]);

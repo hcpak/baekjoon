@@ -18,7 +18,13 @@ int main(){
             dp[i + T[i]] = max(dp[i + T[i]],dp[i]+P[i]);
             answer =max(answer,dp[i+T[i]]);
         }
+<<<<<<< HEAD
     }
     printf("%d\n",answer);
+=======
+        printf("%d ",dp[i]);
+    }
+    printf("\n%d\n",answer);
+>>>>>>> e0d0e2d0e4c6be496f1c5e2a385471ac260219d0
     return 0;
 }

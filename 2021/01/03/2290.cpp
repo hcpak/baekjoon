@@ -64,6 +64,11 @@ int main(){
         for(int width =0; width < (s+3)*n; width++){
             int cur_width = width % (s+2+1);
             int cur_id = width / (s+3);
+<<<<<<< HEAD
+=======
+            // printf("width: %d\n",width);
+            // printf("s: %d cur_width: %d cur_id: %d\n",s,cur_width,cur_id);
+>>>>>>> e0d0e2d0e4c6be496f1c5e2a385471ac260219d0
             if(height == 0){
                 if(1<=cur_width && cur_width <=s){
                     if(check[0][cur_id])
@@ -134,4 +139,8 @@ int main(){
 
 
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e0d0e2d0e4c6be496f1c5e2a385471ac260219d0

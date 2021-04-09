@@ -18,6 +18,10 @@ int main(void){
             else{
                 arr[lower_bound(arr,arr+len,temp) - arr] = temp;
             }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e0d0e2d0e4c6be496f1c5e2a385471ac260219d0
         }
     }
     printf("%d\n",len);
