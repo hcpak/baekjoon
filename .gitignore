@@ -8,3 +8,6 @@ a.out
 input
 Main.class
 settings.json
+Main$Node.class
+Main$point.class
+Main$1.class
